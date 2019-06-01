@@ -4,3 +4,6 @@ def line(arr)
     puts str
   end
 end
+
+my_arr = []
+my_arr2 = ["Jake", "Fred"]
