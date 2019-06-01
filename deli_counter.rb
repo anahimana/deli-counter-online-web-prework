@@ -22,3 +22,4 @@ def take_a_number(arr, arg)
   end
 end
 
+my_arg = %w(Ada Grace Kent)
