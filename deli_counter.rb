@@ -13,5 +13,5 @@ end
 
 def take_a_number(arr, arg)
   arr.push(arg) if arr.empty? != false
-  arr.each do |str|
+  arr.each do |item|
 end
