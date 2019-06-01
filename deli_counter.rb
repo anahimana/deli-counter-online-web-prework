@@ -5,7 +5,7 @@ def line(arr)
   end
   result = "The line is currently: "
   arr.each_with_index do |str, index|
-    puts str
+    result += "#{index + 1}"
   end
   puts result
 end
