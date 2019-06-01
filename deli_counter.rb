@@ -12,5 +12,9 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
-  arr.push(arg)
+  my_arr = []
+  if arr.length < 1
+    arr.push(arg)
+  elsif arg > 1
+    
 end
