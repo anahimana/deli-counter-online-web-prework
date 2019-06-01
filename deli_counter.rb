@@ -13,7 +13,7 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
-   arr.push
+   arr.push(arg)
    puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
 end
 
