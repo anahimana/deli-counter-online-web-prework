@@ -3,7 +3,7 @@ def line(arr)
   arr.each do |str|
     puts str
   end
-  
+  "The line is currently empty."
 end
 
 my_arr = []
