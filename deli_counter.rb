@@ -1,4 +1,5 @@
 # Write your code here.
+require 'pry'
 def line(arr)
   if arr.length < 1
     puts "The line is currently empty."
@@ -18,6 +19,5 @@ def take_a_number(arr, arg)
   elsif arr.length > 1
     arr.push(arg)
     puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
-
   end
 end
