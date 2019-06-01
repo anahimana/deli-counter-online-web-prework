@@ -19,5 +19,6 @@ line(my_arr2)
 
 def take_a_number(arr, arg)
   if arr.length < 1
+    
   end
 end
