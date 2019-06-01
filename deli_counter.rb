@@ -1,6 +1,7 @@
 # Write your code here.
 def line(arr)
   if arr.length < 1
+    puts "The line is currently empty."
   end
   arr.each do |str|
     puts str
