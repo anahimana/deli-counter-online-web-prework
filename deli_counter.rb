@@ -13,6 +13,5 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
-  if arr.empty?
-  end
+  if 
 end
