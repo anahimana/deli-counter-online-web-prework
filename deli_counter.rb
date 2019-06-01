@@ -20,3 +20,9 @@ line(my_arr2)
 def take_a_number(arr, arg)
   arr.push(arg)
 end
+
+
+my_arr = []
+my_arr2 = ["Jake", "Fred"]
+
+puts take_a_number
