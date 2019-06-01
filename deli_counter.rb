@@ -12,5 +12,5 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
-  arr.push if arr.empty? != false
+  arr.push(arg) if arr.empty? != false
 end
