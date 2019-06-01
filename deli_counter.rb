@@ -22,7 +22,6 @@ def take_a_number(arr, arg)
   elsif arg.kind_of?(Array)
     arg.each do |item|
       arr.push(item)
-      binding.pry
     end
   end
 end
