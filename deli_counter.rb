@@ -20,6 +20,6 @@ def take_a_number(arr, arg)
     arr.push(arg)
     puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
   elsif arg.length > 1
-    binding.pry
+    # binding.pry
   end
 end
