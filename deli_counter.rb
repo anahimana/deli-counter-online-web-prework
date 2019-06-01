@@ -1,9 +1,10 @@
 # Write your code here.
 def line(arr)
+  if arr.length < 1
+  end
   arr.each do |str|
     puts str
   end
-  puts "The line is currently empty."
 end
 
 my_arr = []
