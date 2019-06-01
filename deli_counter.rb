@@ -12,7 +12,7 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
-  arr.push(arg) if arr.empty? != false
-  arr.each do |item|
-  end
+  if arr < 1
+    arr.push(arg)
+  
 end
