@@ -3,7 +3,7 @@ def line(arr)
   if arr.length < 1
     puts "The line is currently empty."
   end
-  arr.each_with_index do |str|
+  arr.each_with_index do |str, index|
     puts str
   end
 end
