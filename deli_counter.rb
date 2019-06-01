@@ -14,6 +14,7 @@ end
 def take_a_number(arr, arg)
   if arr.length < 1
     arr.push(arg)
+    "Welcome, Ada. You are number 1 in line."
+
   end
-  "Welcome, Ada. You are number 1 in line."
 end
