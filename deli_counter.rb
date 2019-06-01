@@ -14,7 +14,7 @@ end
 def take_a_number(arr, arg)
   my_arr = arr
   if arr.length < 1
-    arr.push(arg)
+    my_arr.push(arg)
   elsif arg > 1
     
 end
