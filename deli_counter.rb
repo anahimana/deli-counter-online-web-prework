@@ -13,5 +13,5 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
-  arr.empty ? if-true-expression : if-false-expression
+  arr.empty ? arr.push(arg) : if-false-expression
 end
