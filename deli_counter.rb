@@ -13,6 +13,7 @@ def line(arr)
 end
 
 def take_a_number(arr, arg)
+  arg_array = arg.kind_of?(Array)
   if arg.kind_of?(Array)
     arg.each do |item|
     arr.push(item)
