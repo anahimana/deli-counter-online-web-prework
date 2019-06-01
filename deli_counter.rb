@@ -14,6 +14,6 @@ end
 def take_a_number(arr, arg)
   if arr.length < 1
     arr.push(arg)
-    "Welcome, #{arr.last}. You are number #{arr.index(arr.last)} in line."
+    "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
   end
 end
