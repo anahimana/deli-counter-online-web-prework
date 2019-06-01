@@ -21,7 +21,6 @@ def take_a_number(arr, arg)
   elsif !arg_array && arr.length < 1
     arr.push(arg)
     puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
-    binding.pry
   elsif !arg_array && arr.length > 1
     arr.push(arg)
     puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
