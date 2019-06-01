@@ -19,6 +19,5 @@ end
 
 def now_serving(arr)
   if arr.length < 1
-    end 
-    puts "There is nobody waiting to be served!"
+    end
 end
