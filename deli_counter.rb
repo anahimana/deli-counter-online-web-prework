@@ -7,7 +7,6 @@ def line(arr)
     result += "#{index + 1}. {str}"
   end
   puts result
-
   end
 end
 
