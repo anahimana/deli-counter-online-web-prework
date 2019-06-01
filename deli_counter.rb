@@ -18,5 +18,5 @@ def take_a_number(arr, arg)
 end
 
 def now_serving
-  
+  "There is nobody waiting to be served!"
 end
