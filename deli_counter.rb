@@ -11,8 +11,8 @@ def line(arr)
   end
 end
 
-my_arr = []
-my_arr2 = ["Jake", "Fred"]
+# my_arr = []
+# my_arr2 = ["Jake", "Fred"]
 
 # line(my_arr)
 line(my_arr2)
