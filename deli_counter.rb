@@ -23,5 +23,6 @@ def take_a_number(arr, arg)
     arg.each do |item|
       arr.push(item)
       binding.pry
+    end
   end
 end
