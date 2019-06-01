@@ -4,7 +4,7 @@ def line(arr)
     puts "The line is currently empty."
   else
     result = "The line is currently:"
-    arr.each_with_index do |str, index|
+    arr.each_with_index do |item, index|
     result += " #{index + 1}. #{str}"
     end
     puts result
