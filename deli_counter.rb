@@ -19,5 +19,5 @@ end
 
 def now_serving(arr)
   if arr.length < 1
-    end
+  end
 end
