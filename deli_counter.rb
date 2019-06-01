@@ -14,6 +14,7 @@ end
 
 def take_a_number(arr, arg)
   arg.each do |item|
+    puts item
   end if arg.kind_of?(Array)
   if arr.length < 1
     arr.push(arg)
