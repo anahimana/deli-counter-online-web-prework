@@ -7,6 +7,7 @@ def line(arr)
   arr.each_with_index do |str, index|
     puts str
   end
+  puts result
 end
 
 # my_arr = []
