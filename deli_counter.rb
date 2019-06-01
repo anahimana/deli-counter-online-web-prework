@@ -16,8 +16,8 @@ def take_a_number(arr, arg)
   arg_array = arg.kind_of?(Array)
   if arg_array
     arg.each do |item|
-    arr.push(item)
-  end
+      arr.push(item)
+    end
   elsif !arg_array && arr.length < 1
     arr.push(arg)
     puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
