@@ -1,2 +1,3 @@
 # Write your code here.
-line = []
+def line(arr)
+end
