@@ -5,8 +5,8 @@ def line(arr)
   else
     arr.each_with_index do |str, index|
     result += "#{index + 1}. {str}"
-  end
-  puts result
+    end
+    puts result
   end
 end
 
