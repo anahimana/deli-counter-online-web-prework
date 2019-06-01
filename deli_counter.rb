@@ -2,12 +2,13 @@
 def line(arr)
   if arr.length < 1
     puts "The line is currently empty."
-  end
-  arr.each_with_index do |str, index|
-    result = "The line is currently: "
+  else
+    arr.each_with_index do |str, index|
     result += "#{index + 1}. {str}"
   end
   puts result
+
+  end
 end
 
 my_arr = []
