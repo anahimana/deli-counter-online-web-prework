@@ -24,3 +24,4 @@ end
 
 my_arg = %w(Ada Grace Kent)
 take_a_number(my_arg)
+
