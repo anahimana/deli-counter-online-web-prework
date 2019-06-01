@@ -17,7 +17,7 @@ def take_a_number(arr, arg)
   if arg_array
     arg.each do |item|
     arr.push(item)
-    puts arr
+    puts "Hello!"
   end
   elsif !arg_array && arr.length < 1
     arr.push(arg)
