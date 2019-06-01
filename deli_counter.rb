@@ -22,6 +22,7 @@ def take_a_number(arr, arg)
   elsif arg.length > 1
     arg.each do |item|
     arr.push(item)
+  end
     # binding.pry
   end
 end
