@@ -22,6 +22,5 @@ def take_a_number(arr, arg)
 end
 
 
-my_arr = []
-
-puts take_a_number(my_arr, "Alex")
+# my_arr = []
+# puts take_a_number(my_arr, "Alex")
