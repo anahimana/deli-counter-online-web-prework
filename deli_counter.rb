@@ -17,6 +17,6 @@ def take_a_number(arr, arg)
    puts "Welcome, #{arr.last}. You are number #{arr.index(arr.last) + 1} in line."
 end
 
-def now_serving
+def now_serving(arr)
   puts "There is nobody waiting to be served!"
 end
